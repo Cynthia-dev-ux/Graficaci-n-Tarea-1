@@ -1,0 +1,3 @@
+/home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/build/CMakeFiles/juego.dir
+/home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/build/CMakeFiles/edit_cache.dir
+/home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/build/CMakeFiles/rebuild_cache.dir
