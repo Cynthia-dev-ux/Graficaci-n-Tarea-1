@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/juego.dir/src/main.cpp.o CMakeFiles/juego.dir/src/Celula.cpp.o -o juego  /usr/lib64/libsfml-graphics.so.2.6.2 /usr/lib64/libsfml-window.so.2.6.2 /usr/lib64/libsfml-system.so.2.6.2
