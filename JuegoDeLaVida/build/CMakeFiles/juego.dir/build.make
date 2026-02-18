@@ -108,6 +108,9 @@ juego_EXTERNAL_OBJECTS =
 juego: CMakeFiles/juego.dir/src/main.cpp.o
 juego: CMakeFiles/juego.dir/src/Celula.cpp.o
 juego: CMakeFiles/juego.dir/build.make
+juego: /usr/lib64/libsfml-graphics.so.2.6.2
+juego: /usr/lib64/libsfml-window.so.2.6.2
+juego: /usr/lib64/libsfml-system.so.2.6.2
 juego: CMakeFiles/juego.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable juego"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/juego.dir/link.txt --verbose=$(VERBOSE)
