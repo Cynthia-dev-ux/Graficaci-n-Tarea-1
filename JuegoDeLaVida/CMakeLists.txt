@@ -16,7 +16,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 find_package(SFML 2.6 COMPONENTS graphics window system REQUIRED)
 
 # Ejecutable
-add_executable(${PROJECT_NAME} {PROJECT_SOURCE_DIR}/src/main.cpp
+add_executable(${PROJECT_NAME} ${PROJECT_SOURCE_DIR}/src/main.cpp
     ${PROJECT_SOURCE_DIR}/src/Celula.cpp
 )
 
