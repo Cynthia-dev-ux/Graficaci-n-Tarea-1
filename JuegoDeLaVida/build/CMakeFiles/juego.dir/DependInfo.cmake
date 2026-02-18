@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/src/Celula.cpp" "CMakeFiles/juego.dir/src/Celula.cpp.o" "gcc" "CMakeFiles/juego.dir/src/Celula.cpp.o.d"
-  "/home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/src/main.cpp" "CMakeFiles/juego.dir/src/main.cpp.o" "gcc" "CMakeFiles/juego.dir/src/main.cpp.o.d"
+  "/home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/src/Celula.cpp" "CMakeFiles/juego.dir/src/Celula.cpp.o" "gcc" "CMakeFiles/juego.dir/src/Celula.cpp.o.d"
+  "/home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/src/main.cpp" "CMakeFiles/juego.dir/src/main.cpp.o" "gcc" "CMakeFiles/juego.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

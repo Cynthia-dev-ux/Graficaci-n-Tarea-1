@@ -37,17 +37,19 @@ int main()
 
 	// GAME LOOP
 	while ( window.isOpen() )
-	{
-		while ( const std::optional event = window.pollEvent() )
-		{
-			if ( event->is<sf::Event::Closed>() )
-				window.close();
+	{       sf::Event event;
+            while (window.pollEvent(event))	
+				{
+            if (event.type == sf::Event::Closed)
+			{				
+			window.close();
+				}
 			//Se revisa cuando se da un click
-			else if (const auto* mouseButtonPressed = event->getIf<sf::Event::MouseButtonPressed>())
-			{
+			else if (event.type == sf::Event::MouseButtonPressed)
 				// Se obtiene la coordenada del click
-				int mouse_x = mouseButtonPressed->position.x;
-        		int mouse_y = mouseButtonPressed->position.y;
+			{
+				int mouse_x = event.mouseButton.x;
+                int mouse_y = event.mouseButton.y;
 
 				//Se obtienen los indices correspondientes del arreglo de cuadrados
 				int coord_x = mouse_x/101;
@@ -57,25 +59,20 @@ int main()
 				int index = (coord_y*5+coord_x);
 
 				celulas.at(index)->cambiaEstado();
-				// Se redibujan las Celulas
-				window.clear(color);
-				for (Celula* celula : celulas)
-				{
-					window.draw(celula->getCuadrado());
-				}
-				window.display();
 			}
+				
 			//Se revisa cuando se presiona la tecla ENter para comenzar la simulación
-			else if (const auto* keyPressed = event->getIf<sf::Event::KeyPressed>())
+			else if (event.type == sf::Event::KeyPressed)
 			{
-				if (keyPressed->scancode == sf::Keyboard::Scan::Enter)
-				{
+            if (event.key.code == sf::Keyboard::Enter)				
+			 {
 					// número de iteraciones a realizar 
-					int iteraciones = 24;
+					int iteraciones = 25;
 					int contador = 0;
 
 					while(contador++ <iteraciones)
 					{
+						
 						// Se verifica si todas las celulas estan muertas para temrinar la simulación.
 						bool muertos = false;
 						for (Celula* celula: celulas)
@@ -112,6 +109,8 @@ int main()
 			}
 		}
 
+		
+
 		window.clear(color);
 		for (Celula* celula : celulas)
 		{
@@ -121,6 +120,8 @@ int main()
 	}
 }
 
+
+
 /**
  * @brief función que asigna los estados futuros a las células. 
  * Esta función debe verificar el número de vecinos vivos por cada celula y actaulizar su estado futuro
@@ -129,4 +130,80 @@ int main()
 void calculaEstadosFuturos(const std::vector<Celula*>& celulas)
 {
 	//TODO
+
+for(int i = 0; i < 25; i++){
+
+	int vecinosVivos = 0;
+
+    // Arriba
+	if (i > 4) {
+            if (celulas[i - 5]->isViva()) {
+                vecinosVivos++;
+            }
+        } 
+	// Arriba izquierda
+    if (i > 5 && i % 5 != 0) {
+            if (celulas[i - 6]->isViva()) {
+                vecinosVivos++;
+            }
+        }
+		
+	//Arriba derecha
+	if (i > 3 && i % 5 != 4) {
+            if (celulas[i - 4]->isViva()) {
+                vecinosVivos++;
+            }
+        }
+
+	//Izquierda
+	   if (i > 0 && i % 5 != 0) {
+            if (celulas[i - 1]->isViva()) {
+                vecinosVivos++;
+            }
+        }
+	//Derecha
+	        if (i < 24 && i % 5 != 4) {
+            if (celulas[i + 1]->isViva()) {
+                vecinosVivos++;
+            }
+        }
+    //Abajo
+	 if (i < 19) {
+            if (celulas[i + 5]->isViva()) {
+                vecinosVivos++;
+            }
+        }
+	// Abajo izquierda
+	        if (i < 20 && i % 5 != 0) {
+            if (celulas[i + 4]->isViva()) {
+                vecinosVivos++;
+            }
+        }
+    //Abajo derecha
+
+	  if (i < 18 && i % 5 != 4) {
+            if (celulas[i + 6]->isViva()) {
+                vecinosVivos++;
+            }
+	  }
+	//Ver si está viva o muerta o nace siguiendo los reglas
+
+    if(celulas[i] -> isViva() == true){
+		if (vecinosVivos == 2 || vecinosVivos == 3) {
+			celulas[i] -> setEstadoFuturo(true);
+		} else {
+			celulas[i] -> setEstadoFuturo(false);
+		}
+	}else {
+		if (vecinosVivos == 3){
+			celulas[i] -> setEstadoFuturo(true);
+		}else{
+			celulas[i]-> setEstadoFuturo(false);
+		}
+	}
+	
+
+
+		}
 }
+

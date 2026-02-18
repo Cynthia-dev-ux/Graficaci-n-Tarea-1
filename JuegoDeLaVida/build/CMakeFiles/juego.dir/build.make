@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida
+CMAKE_SOURCE_DIR = /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/build
+CMAKE_BINARY_DIR = /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/juego.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/juego.dir/progress.make
 include CMakeFiles/juego.dir/flags.make
 
 CMakeFiles/juego.dir/src/main.cpp.o: CMakeFiles/juego.dir/flags.make
-CMakeFiles/juego.dir/src/main.cpp.o: /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/src/main.cpp
+CMakeFiles/juego.dir/src/main.cpp.o: /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/src/main.cpp
 CMakeFiles/juego.dir/src/main.cpp.o: CMakeFiles/juego.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/juego.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/juego.dir/src/main.cpp.o -MF CMakeFiles/juego.dir/src/main.cpp.o.d -o CMakeFiles/juego.dir/src/main.cpp.o -c /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/juego.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/juego.dir/src/main.cpp.o -MF CMakeFiles/juego.dir/src/main.cpp.o.d -o CMakeFiles/juego.dir/src/main.cpp.o -c /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/src/main.cpp
 
 CMakeFiles/juego.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/juego.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/src/main.cpp > CMakeFiles/juego.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/src/main.cpp > CMakeFiles/juego.dir/src/main.cpp.i
 
 CMakeFiles/juego.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/juego.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/src/main.cpp -o CMakeFiles/juego.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/src/main.cpp -o CMakeFiles/juego.dir/src/main.cpp.s
 
 CMakeFiles/juego.dir/src/Celula.cpp.o: CMakeFiles/juego.dir/flags.make
-CMakeFiles/juego.dir/src/Celula.cpp.o: /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/src/Celula.cpp
+CMakeFiles/juego.dir/src/Celula.cpp.o: /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/src/Celula.cpp
 CMakeFiles/juego.dir/src/Celula.cpp.o: CMakeFiles/juego.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/juego.dir/src/Celula.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/juego.dir/src/Celula.cpp.o -MF CMakeFiles/juego.dir/src/Celula.cpp.o.d -o CMakeFiles/juego.dir/src/Celula.cpp.o -c /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/src/Celula.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/juego.dir/src/Celula.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/juego.dir/src/Celula.cpp.o -MF CMakeFiles/juego.dir/src/Celula.cpp.o.d -o CMakeFiles/juego.dir/src/Celula.cpp.o -c /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/src/Celula.cpp
 
 CMakeFiles/juego.dir/src/Celula.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/juego.dir/src/Celula.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/src/Celula.cpp > CMakeFiles/juego.dir/src/Celula.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/src/Celula.cpp > CMakeFiles/juego.dir/src/Celula.cpp.i
 
 CMakeFiles/juego.dir/src/Celula.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/juego.dir/src/Celula.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/src/Celula.cpp -o CMakeFiles/juego.dir/src/Celula.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/src/Celula.cpp -o CMakeFiles/juego.dir/src/Celula.cpp.s
 
 # Object files for target juego
 juego_OBJECTS = \
@@ -108,21 +108,8 @@ juego_EXTERNAL_OBJECTS =
 juego: CMakeFiles/juego.dir/src/main.cpp.o
 juego: CMakeFiles/juego.dir/src/Celula.cpp.o
 juego: CMakeFiles/juego.dir/build.make
-juego: /usr/local/lib64/libsfml-graphics-s.a
-juego: /usr/local/lib64/libsfml-window-s.a
-juego: /usr/lib64/libXrandr.so
-juego: /usr/lib64/libXcursor.so
-juego: /usr/lib64/libXrender.so
-juego: /usr/lib64/libXfixes.so
-juego: /usr/lib64/libXi.so
-juego: /usr/lib64/libXext.so
-juego: /usr/lib64/libX11.so
-juego: /usr/local/lib64/libsfml-system-s.a
-juego: /usr/lib64/libGL.so
-juego: /usr/lib64/libudev.so
-juego: /usr/lib64/libfreetype.so
 juego: CMakeFiles/juego.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable juego"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable juego"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/juego.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -134,6 +121,6 @@ CMakeFiles/juego.dir/clean:
 .PHONY : CMakeFiles/juego.dir/clean
 
 CMakeFiles/juego.dir/depend:
-	cd /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/build /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/build /home/cynthiauribemartinez/Graficacion/Tarea1/Graficacion-por-Computadoras/JuegoDeLaVida/build/CMakeFiles/juego.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/build /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/build /home/cynthiauribemartinez/Graficacion/Tarea1/T1/JuegoDeLaVida/build/CMakeFiles/juego.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/juego.dir/depend
 
